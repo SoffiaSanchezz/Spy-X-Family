@@ -1,0 +1,251 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{font-size: 4.5em;
+    color: black;
+}
+.text-inicio{
+    color: #FAB3AD;
+
+}
+.w3-bar{
+    background-color: #610a10;
+    height: small;
+    color: #FAB3AD;
+
+}
+
+.w3-content{
+    max-width:1600px;
+}
+
+.W3-container{
+    align-content: center center;
+    padding: 48;
+    border-radius: 5px 5px 5px 5px;
+    border: 5px solid #000;
+}
+.w3-xxxlarge{
+    color: black;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 50px;
+}
+.w3-tag{
+    border: #610a10;
+    border-radius: 50;
+}
+
+.w3-display{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.w3-text{
+    font-family:fantasy;
+    color:#610a10;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+.w3-jumbo{
+    font-family:cursive;
+    text-align: center;
+    font: size 1px;
+}
+
+.contenedor-img{
+    text-align: center;
+}
+
+.button-inicio{
+    justify-content: center;
+    align-content: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+.w3-tag{
+    font-family: cursive;
+    font-size: x-large;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 2px solid rgb(87,103,92);
+    box-shadow:2px 2px 10px #8da99b;
+    color: #FAB3AD;
+    background-color: #610a10;
+    
+}
+h6{
+    font-family:Haettenschweile;
+    font-size: xx-large;
+}
+
+.titulos{
+    font-family:'Courier New', Courier, monospace;
+    color: #000;
+    font-size: 50px;
+}
+
+.loid{
+    font-family: cursive;
+    background-color: #8da99b70;
+    color: #57675c;
+    border-radius: 3px;
+    border: 2px solid #8da99b;
+}
+
+.image-loid{
+    border: 1.5px solid #57675c;
+    background-color: #8da99b83;
+}
+
+.yor{
+    font-family: cursive;
+    background-color: #610a108f;
+    color: #2C2827;
+    border-radius: 3px;
+    border: 2px solid #2C2827;
+}
+
+.image-yor{
+    border: 1.5px solid #610a10;
+    background-color: #2c282754;   
+}
+
+.anya{
+    font-family: cursive;
+    background-color: #FAB3AD;
+    color: #2C2827;
+    border-radius: 3px;
+    border: 2px solid #2C2827;
+}
+.image-anya{
+    border: 1.5px solid #FAB3AD;
+    background-color: #000;
+}
+strong{
+    font-family: cursive;
+    font-size: larger;
+}
+
+span{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+    font-size: larger;
+}
+.comentario{
+    font-family: 'Courier New', Courier, monospace;
+    color: #57675c;
+    font-size: x-large;
+}
+
+.bottom-secu{
+    background-color: #8da99b;
+    color: #57675c;
+    font-family: 'Courier New', Courier, monospace;
+    border:2px solid #8da99b;
+}
+
+.mi-contenedor{
+    border-radius: 5px;
+    border: 3px solid #57675c;
+}
+
+.bottom-yor{
+    background-color: #2c282796;
+    color:#610a10;
+    font-family: 'Courier New', Courier, mono;
+    border-radius: 3px;
+    border: 2px solid #610a10;
+    
+}
+
+.COMENTARIO{
+    font-family: 'Courier New', Courier, monospace;
+    color: #610a10;
+    font-size: x-large;
+}
+
+.mi-conteryor{
+    border-radius: 5px;
+    border: 3px solid #610a10;
+}
+
+
+.mi-conteranya{
+    border-radius: 5px;
+    border: 3px solid #FAB3AD;
+
+}
+
+.comen-anya{
+    font-family: 'Courier New', Courier, monospace;
+    color: #FAB3AD;
+    font-size: x-large;
+}
+
+.imagen-anya{
+    justify-content: center;
+    align-content: center center;
+}
+.comentarios{
+    font-family: cursive;
+    font-size: large;
+}
+
+.bottom-anya{
+    background-color: #2c282796;
+    color:#FAB3AD;
+    font-family: 'Courier New', Courier, mono;
+}
+.bond{
+    font-family: 'Courier New', Courier, monospace;
+    justify-content: center;
+    text-align: center;
+    font-size: x-large;
+}
+
+.aniya{
+    color: aliceblue;
+}
+
+.mi-conterbond{
+    border-radius: 5px;
+    border: 3px solid #2C2827;
+}
+.fondoss{
+border-radius: 2px 0px 0px 0px;
+    border: 2px solid #FAB3AD;
+    background-color: #610a10;
+}
+.comentarios-fin{
+    font-family:fantasy;
+    color: #FAB3AD;
+}
+.comentarios-tags{
+    font-size: x-large;
+    font-family:cursive;
+}
+
+.el-fondo{
+    color: #FAB3AD;
+    border-radius: 5px;
+    border: 2px solid #2C2827;
+}
+
+.colors{
+    color: #610a10;
+}
+.anya-fondo{
+    font-family:'Courier New', Courier, monospace;
+    color: #FAB3AD;
+    font-size: x-large;
+
+}
+
+.bottom-fin{
+    border-radius: 2px;
+    border: 2px solid #FAB3AD;
+    font-family: 'Courier New', Courier, monospace;
+}

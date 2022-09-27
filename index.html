@@ -1,0 +1,331 @@
+
+<!-- Los comentarios a lo largo del codigo son muy importantes nos ayudan  -->
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>SPY X FAMILY</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="index.css">
+</head>
+
+<body class="w3-light-grey">
+
+<!-- Navigation bar with social media icons --> 
+
+<div class="w3-bar">
+  <a href="#" class="w3-bar-item w3-button w3-right"><i class="fa fa-facebook-official"></i></a>
+  <a href="#" class="w3-bar-item w3-button w3-right"><i class="fa fa-instagram"></i></a>
+  <a href="#" class="w3-bar-item w3-button w3-right"><i class="fa fa-snapchat"></i></a>
+  <a href="#" class="w3-bar-item w3-button w3-right"><i class="fa fa-flickr"></i></a>
+  <a href="#" class="w3-bar-item w3-button w3-right"><i class="fa fa-twitter"></i></a>
+  <a href="#" class="w3-bar-item w3-button w3-right"><i class="fa fa-linkedin"></i></a>
+  <a href="#" class="w3-bar-item w3-button w3-left"><i class="fa fa-search"></i></a>
+</div>
+  
+  
+<!-- w3-content defines a container for fixed size centered content, 
+and is wrapped around the whole page content, except for the footer in this example -->
+<div class="w3-content" style="max-width:1600px">
+
+  <!-- Header -->
+  <header class="w3-container w3-center w3-padding-48 w3-white">
+    <h1 class="w3-xxxlarge"><b>SPY X FAMILY </b></h1>
+    <h6>Bienvenidos a <span class="w3-tag">La Familia mas Disfuncional </span></h6>
+  </header>
+
+  <!-- Image header -->
+  <header class="w3-display-container w3-wide" id="home">
+    <img class="w3-image" src="https://i0.wp.com/codigoespagueti.com/wp-content/uploads/2022/05/Spy-x-Family-Este-es-el-cosplay-definitivo-de-la-familia-Forger.jpg?fit=1280%2C720&quality=80&ssl=1" alt="Fashion Blog" width="1600" height="1060">
+    <div class="w3-display-right w3-padding-large contenedor-img">
+      <h1 class="w3-text"><br><br><br> LA MISION MAS IMPORTANTE ES FORMAR UNA FAMILIA</h1>
+      <h1 class="w3-jumbo  w3-hide-x small button-inicio text-inicio"><b>Sin Saber ¿Quien es quien?</b></h1>
+      <h6><button class="w3-button-center w3-black w3-padding-large w3-large w3-opacity w3-hover-opacity-off" onclick="document.getElementById('subscribe').style.display='block'">Ver Serie</button></h6>
+    </div>
+  </header>
+
+  <!-- Grid -->
+  <div class="w3-row w3-padding w3-border">
+
+    <!-- Blog entries -->
+    <div class="w3-col l8 s12">
+    
+      <!-- Blog entry loid -->
+      <div class="w3-container w3-white w3-margin w3-padding-large mi-contenedor">
+        <div class="w3-center">
+          <h3 class="titulos">Twilight Mas Conocido como <br> "Loid Forger"</h3>
+          <h5 class="loid">Rey del disfraz-mejor spia de la Agencia
+              <span class="w3-opacity">Rubio Fachero Fuerte </span>
+          </h5>
+        </div>
+
+        <div class="w3-justify">
+          <img src="https://cdn.oneesports.gg/cdn-data/2022/03/SpyxFamily_LoidForger_featured-2.jpg" alt="Girl Hat" style="width:100%" class="w3-padding-16">
+          <p><strong>Él es un agente secreto de Westalis bajo el nombre clave de "Twilight"</strong> Loid es un hombre atractivo de edad desconocida, su cabello es rubio, corto y despeinado, tiene ojos azules y una piel de tono claro. Su cabello a menudo está peinado hacia atrás a cierto nivel, dependiendo de la situación. Tiene un cuerpo bastante alto con una contextura delgada y atletica.
+
+            Se caracteriza por ser un hombre frío y sin emociones, ya que no suele dejarse llevar por estas, debido a eso suele mantenerse sereno y siempre calcula y examina cada decisión que va a tomar. Como es espía, el es muy dedicado a su trabajo por eso abandono la idea de casarse y formar una familia.A medida que forma su falsa familia, Loid empieza a abrirse a estos, empieza a hacerse un poco distraído en el campo de su trabajo, un poco más paciente y amoroso, él aprende a confiar en ellos y a mostrar emociones reales como lo dijo Fiona una compañera de Loid.La capacidad más destacable y anormal de Twilight es su facilidad de aprendizaje y de observación, siendo capaz de almacenar en su mente información en grandes cantidades en cortos periodos de tiempo y recurrir a ella con una gran fiabilidad para aplicarla en su entorno como espía, incluso dando solo pequeños vistados, pudiendo incluso formar procedimientos e instrucciones a seguir para conseguir cierto objetivo, por ejemplo búsqueda de información, combate e incluso conseguir pareja.
+            
+            Una habilidad insignia de Twilight, que le hizo digno del titulo maestro del disfraz, su habilidad para imitar o simular ser otra persona son incomparables gracias a su capacidad de aprendizaje y observación, con lo cual es capaz de camuflarse a la vista de todos, emulando ser otra persona con diferente físico, personalidad, vestimenta y hasta voz...</p>
+          <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
+          <p class="w3-right"><button class="w3-button bottom-secu" onclick="myFunction('demo1')" id="myBtn"><b>Comment  </b> <span class="w3-tag w3-white">1</span></button></p>
+          <p class="w3-clear"></p><hr>
+          <div class="w3-row w3-margin-bottom image-loid" id="demo1" style="display:none">
+              <div class="w3-col l2 m3">
+                <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/9ed727ba-bb7f-42b4-8f87-103200ca42ca/ddn8ts0-ebeea618-d595-481c-965f-059086c2bbae.png/v1/fill/w_1280,h_1920,q_80,strp/embarassed_franky___spy_x_family_short_mission_2_by_ytperm_ddn8ts0-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTkyMCIsInBhdGgiOiJcL2ZcLzllZDcyN2JhLWJiN2YtNDJiNC04Zjg3LTEwMzIwMGNhNDJjYVwvZGRuOHRzMC1lYmVlYTYxOC1kNTk1LTQ4MWMtOTY1Zi0wNTkwODZjMmJiYWUucG5nIiwid2lkdGgiOiI8PTEyODAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.5HsGEFxhXJNNXCoD8gu2AlXKysYyv62EOVwxEHjQUOw" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <h4 class="comentario"><b>Franky Franky </b> <span class="w3-opacity w3-small">Abr 9, 2022, 6:32 PM</span></h4>
+                <p class="comentarios">El mejor spia de todos los tiempos 😎😁 </p>
+              </div>
+          </div>
+        </div>
+      </div>
+      <hr>
+
+<!-- Blog entry Yor-->
+<div class="w3-container w3-white w3-margin w3-padding-large mi-conteryor">
+  <div class="w3-center">
+    <h3 class="titulos">Yor Briar </h3>
+    <h5 class="yor">Una ASESINA bajo el nombre de 
+        <span class="w3-opacity">Thorn Princess</span>
+    </h5>
+  </div>
+
+  <div class="w3-justify">
+    <img src="https://cdn.alfabetajuega.com/alfabetajuega/2022/04/yor-cosplay-spy-x-family.jpg" alt="Girl Hat" style="width:100%" class="w3-padding-16">
+    <p><strong> Princesa Espina o Princesa de Espinas</strong> Ella hace un acuerdo con Loid Forger pretendiendo ser su esposa y madre de Anya para ayudarlo a alcanzar su meta a la vez que las de ella.
+      Yor posee cabello negro, tez pálida, ojos rojos oscuro y es de complexión física delgada. Lleva su largo cabello sujetado con dos largos mechones frontales, mientras que la parte de atrás suele llevarla sujetada. Parece tener una estatura promedio, posiblemente entre los 160+ centímetros aproximadamente.
+      menudo es de carácter reservado, socialmente inadaptado y de actitud extremadamente tímida. No le gusta manejar conversaciones a menos que sea necesario y durante años no le interesaba formar amistades con los demás, siendo distante a sus compañeras de trabajo pese a convivir con ellas casi todo el día. Yor tiende a ponerse nerviosa fácilmente al punto de sonrojarse o avergonzarse. Normalmente es alegre y tiende a ser dulce con sus seres queridos como su hermano Yuri. Yor ha demostrado si bien ser inteligente, también bastante ingenua puesto que de verdad se creyó la historia falsa de que Loid es el padre de Anya y no un detective.Yor es una famosa asesina, una leyenda entre los asesinos a sueldo, ella fue entrenada en el arte de asesinar desde una temprana edad, participado en varios asesinatos desde su adolescencia.</p>
+    <p class="w3-left"><button class="w3-button w3-white w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
+    <p class="w3-right"><button class="w3-button bottom-yor" onclick="myFunction('demo2')" id="myBtn"><b> Comment  </b> <span class="w3-tag w3-white">1</span></button></p>
+    <p class="w3-clear"></p><hr>
+    <div class="w3-row w3-margin-bottom image-yor" id="demo2" style="display:none">
+        <div class="w3-col l2 m3">
+          <img src="https://cdn.myanimelist.net/images/characters/10/474807.jpg" style="width:90px;">
+        </div>
+        <div class="w3-col l10 m9">
+          <h4 class="COMENTARIO"><b>Yuri Briar </b><span class="w3-opacity w3-medium">     April 10, 2022, 7:22 PM</span></h4>
+          <p class="comentarios">Soy el hermano menor de Yor por lo tanto debo protegerla </p>
+        </div>
+      </div>
+      <div class="w3-row w3-margin-bottom">
+        <div class="w3-col l2 m3">
+        </div>
+      </div>
+  </div>
+</div>
+
+      <!-- Blog entry Anya -->
+      <div class="w3-container w3-white w3-margin w3-padding-large mi-conteranya">
+        <div class="w3-center">
+          <h3 class="titulos"> Anya Forger</h3>
+          <h5 class="anya"> la hija adoptiva<span class="w3-opacity"> El experimento 007 Telepata </span></h5>
+        </div>
+
+        <div class="w3-justify">
+          <img src="https://cdn.oneesports.gg/cdn-data/2022/03/SpyxFamily_Anya_featured.jpg" alt="Runway" style="width:100%" class="w3-padding-16">
+          <p><strong>La hija adoptiva de Loid Forger y Yor Forger</strong> La telepata</p>
+          <p>Anya es una niña con una apariencia tierna, posee cabello rosado claro, piel pálida con un ligero sonrojó y ojos verdes de irises grandes y expresivos. Tiene el cabello hasta los hombros y un flequillo. Parte de la zona central de su cabello posee más brillo, mientras que las partes finales de su cabello son ligeramente más oscuras. Suele llevar un vestido negro que le llega hasta arriba de las rodillas, zapatos de muñeca con medias y un lazo en el pecho de color blanco. Anya es muy impresionable con las personas que la rodean. Por ejemplo, leer la mente de Loid y actuar de formas que le parecieron muy extrañas y aprender a golpear de Yor. Dada su habilidad telepática para aislarla de la gente y de sus muchos hogares de acogida.</p>
+          <p class="w3-left"><button class="w3-button w3-black w3-border" onclick="likeFunction(this)"><b><i class="fa fa-thumbs-up"></i> Like</b></button></p>
+          <p class="w3-right"><button class="w3-button w3-white image-anya" onclick="myFunction('demo3')"><b> Comment  </b> <span class="w3-tag w3-black">3</span></button></p>
+          <p class="w3-clear"></p>
+          
+          <!-- Example of comment field -->
+          <div id="demo3" style="display:none">
+            <hr>
+            <div class="w3-row w3-margin-bottom image-anya">
+              <div class="w3-col l2 m3 imagen-anya">
+                <img src="https://i.pinimg.com/736x/ca/a2/91/caa29130f5223c91ea79b8c36412accc.jpg" style="width:108px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <h4 class="comen-anya "><b>Becky Blackbell</b><span class="w3-opacity w3-medium">  April 10, 2022, 7:22 PM</span></h4>
+                <p class="comentarios aniya">Eres muy cool seras mi mejor amiga.</p>
+              </div>
+            </div>
+            <div class="w3-row w3-margin-bottom image-anya">
+              <div class="w3-col l2 m3">
+                <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiF8AOMCpaI2LwU9nlxJSm1sd7haRyzOxTeSEkc8W3AvavlRMI9Nklmg6b12tKBRyW__LQpFHFYBb2JBbJpZxxw_WaFsIa4uzVOWxBvrI0umeKz6dGMnID2kJv2Ks25F0-DcjxrnNtPeW5AgI6_oqYXaDmGNbR7CbMLtYFBjiWgIMQGuj-qaF_KJtOH/s1032/desmon%20anime%20spy%20family.jpg" style="width:112px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <h4 class="comen-anya"><b>Damian Desmond</b><span class="w3-opacity w3-medium">  April 8, 2022, 10:32 PM</span></h4>
+                <p class="comentarios aniya">Eres odiosa y me caes mal ¡No te entiendo!</p>
+              </div>
+            </div>
+            <div class="w3-row w3-margin-bottom image-anya">
+              <div class="w3-col l2 m3">
+                <img src="https://cdn.myanimelist.net/images/characters/6/484493.jpg" style="width:90px;">
+              </div>
+              <div class="w3-col l10 m9">
+                <h4 class="comen-anya"><b>Henry Henderson</b> <span class="w3-opacity w3-medium"> April 7, 2022, 9:12 PM</span></h4>
+                <p class="comentarios aniya"> Nunca vi tanta elegancia en una niña</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    <!-- END BLOG ENTRIES -->
+    </div>
+
+    <!-- About/Information menu -->
+    <div class="w3-col l4">
+      <!-- About Card -->
+      <div class="w3-white w3-margin mi-conterbond">
+        <img src="https://www.geekmi.news/__export/1655585132248/sites/debate/img/2022/06/18/bond.jpg_785959734.jpg" alt="Jane" style="width:100%" class="w3-grayscale">
+        <div class="w3-container w3-black">
+          <h4 class="bond"><b>bond forger</b></h4>
+          <p class="comentarios w3-center">Soy un gigantesco esponjado y muy sedoso perrito</p>
+        </div>
+      </div>
+      <hr>
+
+       <!-- Posts -->
+       <div class="w3-white w3-margin">
+        <div class="w3-container w3-padding fondoss">
+          <h4 class="w3-center comentarios-fin">Posts MAS GRACIOSOS en la Serie</h4>
+        </div>
+        <ul class="w3-ul w3-hoverable w3-white">
+          <li class="w3-padding-16 mi-conteryor">
+            <img src="https://c.tenor.com/ztE_igK4qWEAAAAC/spy-x-family-spy-family.gif" alt="Image" class="w3-left w3-margin-right" style="width:100px">
+            <span class="w3-large comentarios"> Franky "Aydando"</span>
+            <br>
+            <span> Anya no le gusta esta mami</span>
+          </li>
+          <li class="w3-padding-16 mi-conteryor">
+            <img src="https://c.tenor.com/vV5CCgT8sqsAAAAC/spyxfamily-anya.gif" alt="Image" class="w3-left w3-margin-right" style="width:110px">
+            <span class="w3-large comentarios">Anya Siendo Anya</span>
+            <br>
+            <span>¡Soy Anya y siempre he sido hija de mi papi!</span>
+          </li>
+          <li class="w3-padding-16 mi-conteryor">
+            <img src="https://c.tenor.com/2vkg2P2nWVkAAAAC/lonely-anya-spy-x-family.gif" alt="Image" class="w3-left w3-margin-right" style="width:110px">
+            <span class="w3-large comentarios">Anya siendo convincente</span>
+            <br>
+            <span>¡Hay Anya se siente solita sin una mami!</span>
+          </li>
+          <li class="w3-padding-16 mi-conteryor">
+            <img src="https://c.tenor.com/PnNcm6o-eXkAAAAC/anya-forger-anya-spy-x-family-anime.gif" alt="Image" class="w3-left w3-margin-right w3-sepia" style="width:100px">
+            <span class="w3-large comentarios">Anya con sus gustos</span>
+            <br>
+            <span>Comprame mani ¿si?</span>
+          </li>
+        </ul>
+      </div>
+      <hr>
+
+     
+
+      <!-- Tags -->
+      <div class="w3-white w3-margin mi-contenedor">
+        <div class="w3-container w3-padding w3-center loid">
+          <h4 class="comentarios-tags"><b>Conocenos más</b></h4>
+        </div>
+        <div class="w3-container w3-white">
+          <p>
+            <span class="w3-tag w3-margin-bottom w3-small bottom-secu">Anime</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Series</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Anya</span>
+            <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Loid</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Yor</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Becky</span>
+            <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Bond</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Damian</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Donovan</span>
+            <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Fiona</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Yuri</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Sylvia</span>
+            <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Franky</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Henrry</span>
+          </p>
+        </div>
+      </div>
+      <hr>
+
+      <!-- Inspiration -->
+      <div class="w3-white w3-margin mi-conteranya">
+        <div class="w3-container w3-padding w3-black anya w3-xxx-large">
+          <h4 class="comentarios-fin w3-center"> <i>Las Escenas</i></h4>
+        </div>
+        <div class="w3-row-padding w3-white aniya el-fondo">
+          <div class="w3-col s6">
+            <p><img src="https://c.tenor.com/Idrr1zQLggcAAAAC/spy-x-family-spy-family.gif" alt="Jeans" style="width:100%"></p>
+            <p><img src="https://c.tenor.com/337DtR4gRoYAAAAC/spy-x-family-spy-family.gif" alt="Jeans" style="width:100%"></p>
+          </div>
+          <div class="w3-col s6">
+            <p><img src="https://c.tenor.com/54vXJe6Jj3kAAAAC/spy-family-spy-x-family.gif" alt="Men in Hats" style="width:100%" class="w3-grayscale"></p>
+            <p><img src="https://c.tenor.com/7zBGZL2de4YAAAAd/spy-x-family-spy-family.gif" alt="Jeans" style="width:100%"></p>
+         </div>
+        </div>
+      </div>
+      <hr>
+
+      <div class="w3-white w3-margin yor">
+        <div class="w3-container w3-padding w3-center comentarios-tags">
+          <h4 class="w3-center yor "><stro>Follow Me</stro></h4>
+        </div>
+        <div class="w3-container w3-xlarge w3-padding w3-center colors">
+          <i class="fa fa-facebook-official w3-hover-opacity"></i>
+          <i class="fa fa-instagram w3-hover-opacity"></i>
+          <i class="fa fa-snapchat w3-hover-opacity"></i>
+          <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+          <i class="fa fa-twitter w3-hover-opacity"></i>
+          <i class="fa fa-linkedin w3-hover-opacity"></i>
+        </div>
+      </div>
+      <hr>
+      
+      <!-- Subscribe -->
+      <div class="w3-white w3-margin mi-conteranya">
+        <div class="w3-container w3-padding w3-center w3-black anya-fondo comentarios">
+          <h4 class="anya-fondo comen-anya">Subscribe</h4>
+        </div>
+        <div class="w3-container w3-white">
+          <p class="comentarios"> Inscribete para mas contenido.</p>
+          <p><input class="w3-input w3-border bottom-fin" type="text" placeholder="Enter e-mail" style="width:100%"></p>
+          <p><button type="button" onclick="document.getElementById('subscribe').style.display='block'" class="w3-button w3-block bottom-anya">Subscribe</button></p>
+        </div>
+      </div>
+
+    <!-- END About/Intro Menu -->
+    </div>
+
+  <!-- END GRID -->
+  </div>
+
+<!-- END w3-content -->
+</div>
+
+<!-- Subscribe Modal -->
+<div id="subscribe" class="w3-modal w3-animate-opacity">
+  <div class="w3-modal-content" style="padding:32px">
+    <div class="w3-container w3-white">
+      <i onclick="document.getElementById('subscribe').style.display='none'" class="fa fa-remove w3-transparent w3-button w3-xlarge w3-right"></i>
+      <h2 class="w3-wide">SUBSCRIBE</h2>
+      <p>Join my mailing list to receive updates on the latest blog posts and other things.</p>
+      <p><input class="w3-input w3-border" type="text" placeholder="Enter e-mail"></p>
+      <button type="button" class="w3-button w3-block w3-padding-large w3-red w3-margin-bottom" onclick="document.getElementById('subscribe').style.display='none'">Subscribe</button>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-container " style="padding:32px">
+  <a href="#" class="w3-button w3-black w3-padding-large w3-margin-bottom bottom-yor"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+</footer>
+
+<script>
+// Toggle between hiding and showing blog replies/comments
+document.getElementById("myBtn").click();
+function myFunction(id) {
+  var x = document.getElementById(id);
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+function likeFunction(x) {
+  x.style.fontWeight = "bold";
+  x.innerHTML = "✓ Liked";
+}
+</script>
+
+</body>
+</html>
